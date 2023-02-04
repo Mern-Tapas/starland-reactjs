@@ -1,0 +1,277 @@
+a,
+li,
+a:hover {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.topbar {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+h1,
+h2,
+h3,
+h6,
+h5 {
+    margin: 0;
+}
+
+.logo>img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.college-image {
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+
+.overlay-image {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.627), rgba(0, 0, 255, 0));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.college-image>img {
+    object-position: center;
+    height: 100%;
+}
+
+.border-down {
+    border-bottom: 1px solid black;
+}
+
+.contact-info {
+    background-color: red;
+    position: relative;
+}
+
+.contact-info>.contact-details {
+    position: absolute;
+}
+
+
+
+.contact-info-row {
+    position: relative;
+    top: -50px;
+}
+
+.cards {
+    max-width: 1200px;
+    min-width: 280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.box-card {
+    background-color: rgb(255, 255, 255);
+    height: 6rem;
+    border-radius: 0px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.23);
+    width: 100%;
+    word-wrap: break-word;
+
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+
+
+
+.kaushan {
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+.grid-box {
+    height: 400px;
+    background: rgb(233, 233, 233);
+
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.grid-box:nth-child(1) {
+    overflow-y: scroll;
+
+}
+
+
+
+
+input:focus {
+    outline: none;
+}
+
+.student-login input {
+    outline: none;
+    border: 2px solid rgba(27, 0, 0, 0);
+    transition: border 0.1s ease-in-out;
+
+}
+
+.student-login input:focus {
+
+    border: 2px solid rgb(27, 0, 0);
+}
+
+.student-login button {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    height: 70px;
+}
+
+.footer-logo img {
+    height: 100%;
+}
+
+form>a {
+    font-size: 14px;
+}
+
+
+.homepage-gridlayout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+.homepage-gridlayout-items{
+    height: 170px;
+}
+.homepage-gridlayout-items:nth-child(1),.homepage-gridlayout-items:nth-child(2),.homepage-gridlayout-items:nth-child(3){
+    background-position: center;
+    background-size: cover  ;
+}
+.homepage-gridlayout-items:nth-child(2){
+    background-position: center;
+    background-size: cover  ;
+}
+.homepage-gridlayout-items:nth-child(3){
+    background-position: center;
+    background-size: cover  ;
+}
+.homepage-gridlayout-items:nth-child(1)>.content-box    {
+    background: rgba(235,35,88,0.9);
+}
+.homepage-gridlayout-items:nth-child(2)>.content-box{
+    background: rgba(245,140,4,0.9);
+}
+.homepage-gridlayout-items:nth-child(3) .content-box{
+    background: rgba(74,217,217,0.9);
+}
+.content-box:hover.content-box{
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+    opacity: 0.85;
+}
+.gallary-grid>.photo>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.grid-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    justify-items: center;
+    align-items: center;
+}
+.gallary-grid{
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fit,minmax(210px, 1fr));
+}
+
+.photo{
+    height: 210px;
+    position: relative;
+    cursor: pointer;
+}
+
+.photo> .photooverlay{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    transition: all ease-in-out 0.2s;
+    pointer-events: none;
+    opacity: 0;
+}
+.photo:hover >.photooverlay{
+    background: rgba(0, 0, 0, 0.87);
+    opacity: 1;
+}
+.affiliation-logo{
+    max-height: 50px;
+    max-width: 500px;
+}
+.affiliation-logo>img{
+    height: 100%;
+    width: 100%;
+}
+.illustration{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    
+}
+
+.illustration>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.affiliation-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr ));
+    grid-gap: 20px;
+}
+.read-more{
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #05172e;
+    color: #05172e;
+}
+.read-more:hover{
+    border: 2px solid white;
+    background: #ffc107;
+    color: white;
+
+}
+
+@media (max-width:768px) {
+    .contact-info-row {
+        position: relative;
+        top: 0px;
+    }
+}
+
