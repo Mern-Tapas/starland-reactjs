@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid p-0">
             <div class="row  topbar p-0 m-0 ">
                 <div class="col color-1 py-2 px-4 m-0 d-flex ">
                     <div class="logo ">

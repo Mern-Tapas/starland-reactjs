@@ -1,19 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
-
-
-.gideon-roman{
-    font-family: 'Gideon Roman', cursive;
-}
-.poppins{
-    font-family: 'Poppins', sans-serif;
-}
-.playfair-800{
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
-}
-.oleoscript{
-
-    font-family: 'Oleo Script', cursive;
+.greatvibes{
+    font-family: 'Great Vibes', cursive;
 }
 
+
+
+
+.fs-11{
+    font-size: 4.5rem;
+}
