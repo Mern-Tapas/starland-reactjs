@@ -7,7 +7,7 @@ function Navbar() {
         <div className="row nav-bar position-fixed bg-white w-100 shadow">
             <div className="container-xxl">
                 <div className="row p-2">
-                    <div className="col-md-3 col-6  border d-flex align-items-center">
+                    <div className="col-md-3 col-6 d-flex align-items-center">
                         <div className='' style={{ minWidth: "40px", mihHeight: "40px", maxWidth: "40px", maxHeight: "40px" }}>
                             <img src={logo} alt="" />
                         </div>
