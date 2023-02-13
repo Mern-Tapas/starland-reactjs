@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
-.greatvibes{
+.greatvibes {
     font-family: 'Great Vibes', cursive;
 }
 
 
 
 
-.fs-11{
+.fs-11 {
     font-size: 4.5rem;
+}
+
+.fs-8 {
+    font-size: 12px;
+}
+
+.fs-7 {
+    font-size: 14px;
 }

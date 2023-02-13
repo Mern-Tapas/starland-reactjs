@@ -10,7 +10,7 @@ function EnForm() {
 
     return (
         <>
-            <div className='p-3 rounded shadow m-auto' style={{ width: "470px", height: "600px" }}>
+            <div className='p-3 rounded shadow m-auto' style={{ width: "400px", height: "500px" }}>
                 <div className='w-100 p-2 d-flex flex-column h-100'>
                     <h5 className='text-center'>Admission form</h5>
                     <TextField className='mb-3' id="outlined-select" fullWidth label="Student Name" variant="outlined" />

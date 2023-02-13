@@ -8,7 +8,7 @@ function Header() {
                     <div class="logo ">
                         <img src="" alt="" />
                     </div>
-                    <h4 class="text-center text-light oleoscript ms-2 my-auto">Starland Academy</h4>
+                    <h4 class="text-center text-light greatvibes ms-2 my-auto ">Starland Academy</h4>
                     <div class="m-auto d-md-block d-none">
                         <ul class="list-inline p-0 m-0">
                             <li class="  list-inline-item "><a
