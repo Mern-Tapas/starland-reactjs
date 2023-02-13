@@ -6,6 +6,11 @@ import "./assets/css/home.css"
 import "./assets/css/fonts.css"
 import './assets/css/main.css'
 import LandingPage from './Client/pages/LandingPage'
+import About from './Client/pages/About'
+import Contact from './Client/pages/Contact'
+import ApplicationForm from './Client/pages/ApplicationForm'
+import Gallary from './Client/pages/Gallary'
+import Academy from './Client/pages/Academy'
 
 
 function Main() {
@@ -13,11 +18,13 @@ function Main() {
         <BrowserRouter>
             <Routes>
                 <Route path='' element={<Home />} >
-                    <Route path="" element={<LandingPage/>} ></Route>
+                    <Route path="" element={<LandingPage />} ></Route>
+                    <Route path='about' element={<About />}></Route>
+                    <Route path='contact' element={<Contact />}></Route>
+                    <Route path='apply' element={<ApplicationForm />}></Route>
+                    <Route path='gallary' element={<Gallary />}></Route>
+                    <Route path='academics' element={<Academy />}></Route>
                 </Route>
-                <Route path='/login' element={<h2>under construction</h2>}></Route>
-                <Route path='/Singup' element={<h2>under construction</h2>}></Route>
-                <Route path='/Dashboard' element={<h2>under construction</h2>}></Route>
             </Routes>
         </BrowserRouter>
     )

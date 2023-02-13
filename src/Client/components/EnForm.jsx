@@ -15,15 +15,20 @@ function EnForm() {
                     <h5 className='text-center'>Admission form</h5>
                     <TextField className='mb-3' id="outlined-select" fullWidth label="Student Name" variant="outlined" />
                     <TextField className='mb-3' id="outlined-select" fullWidth label="Father Name" variant="outlined" />
-                    <Select className="mb-3" fullWidth label="class" variant='outlined'>
-                        <MenuItem value={"Car Loan"}>Car Loan</MenuItem>
-                        <MenuItem value={"Business Loan"}>Business Loan</MenuItem>
-                        <MenuItem value={"Personal Loan"}>Personal Loan</MenuItem>
-                        <MenuItem value={"Home Loan"}>Home Loan</MenuItem>
+                    <Select className="mb-3" fullWidth label="name" variant='outlined'>
+                        <MenuItem value={"1st"}>1st</MenuItem>
+                        <MenuItem value={"2nd"}>2nd</MenuItem>
+                        <MenuItem value={"3rd"}>3rd</MenuItem>
+                        <MenuItem value={"4th"}>4th</MenuItem>
+                        <MenuItem value={"5th"}>5th</MenuItem>
+                        <MenuItem value={"6th"}>6th</MenuItem>
+                        <MenuItem value={"7th"}>7th</MenuItem>
+                        <MenuItem value={"8th"}>8th</MenuItem>
+                        <MenuItem value={"9th"}>9th</MenuItem>
                     </Select>
                     <TextField className='mb-3' id="outlined-select" fullWidth label="Contact no" type="number" variant="outlined" />
                     <TextField className='mb-3' id="outlined-select" fullWidth label="Email" type="email" variant="outlined" />
-                    <Button variant="contained" className='py-2 mt-auto' fullWidth>Contained</Button>
+                    <Button variant="contained" className='py-2 mt-auto' fullWidth>Submit</Button>
 
                 </div>
             </div>

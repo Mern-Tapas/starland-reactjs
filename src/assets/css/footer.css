@@ -6,3 +6,9 @@
 .footer{
     background: #0B0014;
 }
+*{
+    transition: all ease-in-out 0.2s;
+}
+.fa-brands:hover{
+    color: #ffbf35;
+}

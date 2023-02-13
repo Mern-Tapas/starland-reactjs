@@ -25,3 +25,56 @@
     transition: all ease-in-out 0.2s;    
     background: white;
 }
+.home-page-button>i{
+    color: white;
+}
+.home-page-button:hover>i{
+    color: black;
+}
+
+.home-page-button{
+    animation: updown 0.9s ease-in-out  infinite ;
+}
+
+@keyframes updown {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+@media only screen and (min-width: 200px) {
+    .fs-md-11{
+        font-size: 2.5rem;
+    }
+    .home-page-button{
+        height: 40px;
+        width: 40px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .fs-md-11{
+        font-size: 3.5rem;
+    }
+    .home-page-button{
+        height: 40px;
+        width: 40px;
+    }
+    
+  }
+@media only screen and (min-width: 1000px) {
+    .fs-md-11{
+        font-size: 4.5rem;
+    }
+    .home-page-button{
+        height: 60px;
+        width: 60px;
+    }
+    
+  }
