@@ -45,16 +45,16 @@ function Footer() {
                         <div>
                             <h5 className='mb-3 text-uppercaste text-md-start text-center fs-7'>Follow Us On</h5>
                             <div className='d-flex justify-content-md-start justify-content-center'>
-                                <Link className='text-secondary text-md-start text-center fs-7 me-4' to="">
+                                <Link  data-aos="zoom-in" data-aos-delay="250" className='text-secondary text-md-start text-center fs-7 me-4' to="">
                                     <i class="fa-brands fa-facebook-f fs-4"></i>
                                 </Link>
-                                <Link className='text-secondary text-md-start text-center fs-7 me-4' to="">
+                                <Link  data-aos="zoom-in" data-aos-delay="300" className='text-secondary text-md-start text-center fs-7 me-4' to="">
                                     <i class="fa-brands fa-instagram fs-4"></i>
                                 </Link>
-                                <Link className='text-secondary text-md-start text-center fs-7 me-4' to="">
+                                <Link  data-aos="zoom-in" data-aos-delay="350" className='text-secondary text-md-start text-center fs-7 me-4' to="">
                                     <i class="fa-brands fa-linkedin-in fs-4"></i>
                                 </Link>
-                                <Link className='text-secondary text-md-start text-center fs-7 me-4' to="">
+                                <Link  data-aos="zoom-in" data-aos-delay="400" className='text-secondary text-md-start text-center fs-7 me-4' to="">
                                     <i class="fa-brands fa-youtube fs-4"></i>
                                 </Link>
                             </div>

@@ -10,7 +10,7 @@ function EnForm() {
 
     return (
         <>
-            <div className='p-3 rounded shadow m-auto' style={{ width: "400px", height: "500px" }}>
+            <div data-aos="zoom-out-up" className='p-3 rounded m-auto bg-light' style={{ width: "400px", height: "500px" }}>
                 <div className='w-100 p-2 d-flex flex-column h-100'>
                     <h5 className='text-center'>Admission form</h5>
                     <TextField className='mb-3' id="outlined-select" fullWidth label="Student Name" variant="outlined" />
@@ -28,7 +28,7 @@ function EnForm() {
                     </Select>
                     <TextField className='mb-3' id="outlined-select" fullWidth label="Contact no" type="number" variant="outlined" />
                     <TextField className='mb-3' id="outlined-select" fullWidth label="Email" type="email" variant="outlined" />
-                    <Button variant="contained" className='py-2 mt-auto' fullWidth>Submit</Button>
+                    <Button variant="contained" className='py-2 mt-auto ' fullWidth>Submit</Button>
 
                 </div>
             </div>

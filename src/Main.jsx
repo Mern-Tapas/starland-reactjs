@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Client/pages/Home'
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -11,9 +11,19 @@ import Contact from './Client/pages/Contact'
 import ApplicationForm from './Client/pages/ApplicationForm'
 import Gallary from './Client/pages/Gallary'
 import Academy from './Client/pages/Academy'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Main() {
+
+
+    useEffect(()=>{
+        AOS.init();
+
+    },[])
+
+
     return (
         <BrowserRouter>
             <Routes>

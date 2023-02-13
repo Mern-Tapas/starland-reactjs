@@ -1,80 +1,97 @@
-.home-page-grid{
+.home-page-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 65px auto;
 }
 
 
-.nav-bar{
+.nav-bar {
     position: sticky;
     top: 0;
     z-index: 99;
 }
 
-.image-background{
+.image-background {
     background-size: cover;
     background-position: center;
-    
+
 }
 
-.home-page-button{
+.home-page-button {
     background: rgba(255, 255, 255, 0);
-    transition: all ease-in-out 0.1s;    
+    transition: all ease-in-out 0.1s;
 }
-.home-page-button:hover{
-    transition: all ease-in-out 0.2s;    
+
+.home-page-button:hover {
+    transition: all ease-in-out 0.2s;
     background: white;
 }
-.home-page-button>i{
+
+.home-page-button>i {
     color: white;
 }
-.home-page-button:hover>i{
+
+.home-page-button:hover>i {
     color: black;
 }
 
-.home-page-button{
-    animation: updown 0.9s ease-in-out  infinite ;
+.home-page-button {
+    animation: updown 0.9s ease-in-out infinite;
+}
+
+
+.school-history {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 @keyframes updown {
-    0%{
+    0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(.8);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
-    
+
 }
 
 @media only screen and (min-width: 200px) {
-    .fs-md-11{
+    .fs-md-11 {
         font-size: 2.5rem;
     }
-    .home-page-button{
+
+    .home-page-button {
         height: 40px;
         width: 40px;
     }
 }
+
 @media only screen and (min-width: 700px) {
-    .fs-md-11{
+    .fs-md-11 {
         font-size: 3.5rem;
     }
-    .home-page-button{
+
+    .home-page-button {
         height: 40px;
         width: 40px;
     }
-    
-  }
+
+}
+
 @media only screen and (min-width: 1000px) {
-    .fs-md-11{
+    .fs-md-11 {
         font-size: 4.5rem;
     }
-    .home-page-button{
+
+    .home-page-button {
         height: 60px;
         width: 60px;
     }
-    
-  }
+
+}
