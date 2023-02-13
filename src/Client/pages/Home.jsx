@@ -1,6 +1,7 @@
 import React from 'react'
 import schoolimage from '../../assets/images/school.jpg'
 import EnForm from '../components/EnForm'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
 
@@ -41,6 +42,8 @@ function Home() {
             </div>
           </div>
         </div>
+
+        <Footer/>
 
       </div>
     </>
