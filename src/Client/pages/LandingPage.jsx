@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function LandingPage() {
     return (
         <>
-            <div data-aos="fade-down" className="row min-vh-100 image-background position-relative" style={{ backgroundImage: `url(${schoolimage})` }}>
+            <div data-aos="fade-down" className="row maxheight image-background position-relative" style={{ backgroundImage: `url(${schoolimage})` }}>
                 <div className="col dark-overlay">
 
                 </div>
@@ -22,7 +22,7 @@ function LandingPage() {
                 </div>
             </div>
 
-            <div id='form' className="row min-vh-100">
+            <div id='form' className="row maxheight">
                 <div className="container-xxl ">
 
                     <div className="row h-100 py-3">
@@ -42,7 +42,7 @@ function LandingPage() {
             </div>
 
 
-            <div className="row min-vh-100">
+            <div className="row maxheight">
                 <div className="container-xxl">
                     <div className="row h-100">
                         <div className="col d-flex">

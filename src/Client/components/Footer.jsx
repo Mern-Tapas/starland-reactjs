@@ -1,11 +1,13 @@
 import React from 'react'
 import '../../assets/css/footer.css'
 import { Link } from 'react-router-dom'
+import logo from '../../assets/images/logo-light.png'
+
 
 function Footer() {
     return (
         <>
-            <div className="row footer text-light py-3">
+            <div className="row  footer text-light py-3">
                 <div className="container-xxl">
                     <div className="col-12 footer-grid">
                         <div>
@@ -42,22 +44,30 @@ function Footer() {
                             </div>
 
                         </div>
-                        <div>
-                            <h5 className='mb-3 text-uppercaste text-md-start text-center fs-7'>Follow Us On</h5>
+                        <div className='d-flex flex-column align-items-md-start align-items-center'>
+                            <h5 className='mb-3 text-uppercaste text-md-start text-center fs-7 '>Follow Us On</h5>
                             <div className='d-flex justify-content-md-start justify-content-center'>
-                                <Link  data-aos="zoom-in" data-aos-delay="250" className='text-secondary text-md-start text-center fs-7 me-4' to="">
+                                <Link data-aos="zoom-in" data-aos-delay="250" className='text-secondary text-md-start text-center fs-7 me-4' to="">
                                     <i class="fa-brands fa-facebook-f fs-4"></i>
                                 </Link>
-                                <Link  data-aos="zoom-in" data-aos-delay="300" className='text-secondary text-md-start text-center fs-7 me-4' to="">
+                                <Link data-aos="zoom-in" data-aos-delay="300" className='text-secondary text-md-start text-center fs-7 me-4' to="">
                                     <i class="fa-brands fa-instagram fs-4"></i>
                                 </Link>
-                                <Link  data-aos="zoom-in" data-aos-delay="350" className='text-secondary text-md-start text-center fs-7 me-4' to="">
+                                <Link data-aos="zoom-in" data-aos-delay="350" className='text-secondary text-md-start text-center fs-7 me-4' to="">
                                     <i class="fa-brands fa-linkedin-in fs-4"></i>
                                 </Link>
-                                <Link  data-aos="zoom-in" data-aos-delay="400" className='text-secondary text-md-start text-center fs-7 me-4' to="">
+                                <Link data-aos="zoom-in" data-aos-delay="400" className='text-secondary text-md-start text-center fs-7 me-4' to="">
                                     <i class="fa-brands fa-youtube fs-4"></i>
                                 </Link>
+                            </div >
+
+                            <div className='d-flex mt-3 align-items-center  '>
+                                <div className='d-flex me-2' style={{ width: "55px", height: "55px" }}>
+                                    <img src={logo} alt="" />
+                                </div>
+                                <h3 className='m-0 greatvibes'>Starland Academy</h3>
                             </div>
+
                         </div>
                     </div>
                     <hr />

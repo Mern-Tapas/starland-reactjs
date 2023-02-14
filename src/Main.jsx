@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './Client/pages/Home'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./assets/css/home.css"
 import "./assets/css/fonts.css"
 import './assets/css/main.css'
+import Home from './Client/pages/Home'
 import LandingPage from './Client/pages/LandingPage'
 import About from './Client/pages/About'
 import Contact from './Client/pages/Contact'
